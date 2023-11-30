@@ -676,7 +676,7 @@ body {
 .footer__block {
   display: flex;
   flex-direction: column;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   width: calc((100% - 100px) / 3);
   color: var(--dark-color);
 }
