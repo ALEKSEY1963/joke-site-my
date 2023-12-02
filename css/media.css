@@ -89,3 +89,34 @@
     flex-basis: 0;
   }
 }
+
+@media (max-width: 576px) {
+  :root {
+    --header-height: 0;
+  }
+
+  .hero_info-list {
+    grid-template-columns: 1fr;
+    height: calc(100vh - var(--header-height));
+  }
+
+  .hero__card {
+    grid-column: 0/1;
+    grid-row: 0/1;
+  }
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__block {
+    width: 100%;
+  }
+  .footer__social {
+    padding-top: 2%;
+}
+.footer__textarea {
+  min-height: 100px;
+  margin-bottom: 75px;
+}
+}

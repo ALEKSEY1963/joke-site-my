@@ -666,7 +666,7 @@ body {
   background-color: var(--dark-color);
 }
 .footer__logo {
-  width: 50%;
+  width: 40%;
 }
 .footer__container {
   display: flex;
