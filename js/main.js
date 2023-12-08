@@ -6,6 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+window.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    document.querySelector(".header").classList.remove("open");
+  }
+});
+
+
 const btn = document.getElementById("btn");
 btn.addEventListener("click", () => {
   alert("Нажмите на картинку или заголовок для просмотра");
